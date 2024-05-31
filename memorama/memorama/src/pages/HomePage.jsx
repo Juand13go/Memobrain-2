@@ -34,7 +34,7 @@ function HomePage() {
       <img className="memobrain"></img>
         <section className="phrase">
         <h1>"Learning never exhausts the mind."</h1>
-        <button className='start_learning_btn'>Start Learning</button>
+      <button className='start_learning_btn'>Start Learning</button>
       </section>
       
     </div>

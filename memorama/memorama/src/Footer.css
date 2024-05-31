@@ -11,6 +11,7 @@ footer {
     position: relative;
     /* Added: Set a higher z-index value to ensure it's on top */
     z-index: 2;
+    margin-top: 100px;
   }
   
 
