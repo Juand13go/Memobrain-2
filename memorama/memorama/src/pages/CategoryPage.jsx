@@ -8,25 +8,25 @@ function CategoryPage() {
             <div className='categories'>
                 <div className='category-btn'>
                     <Link to="/spanish">
-                        <img className="image" src="./src/img/spanish3.jpg" alt="" />
+                        <img className="image" src="./img/spanish3.jpg" alt="" />
                     </Link>
                     <h1>SPANISH</h1>
                 </div>
                 <div className='category-btn'>
                     <Link to="/math">
-                        <img className="image" src="./src/img/math.jpg" alt="" />
+                        <img className="image" src="./img/math.jpg" alt="" />
                     </Link>
                     <h1>MATH</h1>
                 </div>
                 <div className='category-btn'>
                     <Link to="/coding">
-                        <img className="image" src="./src/img/coding.jpg" alt="" />
+                        <img className="image" src="./img/coding.jpg" alt="" />
                     </Link>
                     <h1>CODING</h1>
                 </div>
                 <div className='category-btn'>
                     <Link to="/science">
-                        <img className="image" src="./src/img/sciences.avif" alt="" />
+                        <img className="image" src="./img/sciences.avif" alt="" />
                     </Link>
                     <h1>SCIENCE</h1>
                 </div>

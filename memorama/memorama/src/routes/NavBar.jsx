@@ -39,7 +39,7 @@ const user = useContext(userContext)
 
         
           <NavLink style={{textDecoration:'none', color:"white"}} to={"/"}>
-            <img className={'nav-img'} src="./src/img/memobrain_logo.jpg" alt="memobrain-logo" />
+            <img className={'nav-img'} src="./img/memobrain_logo.jpg" alt="memobrain-logo" />
           </NavLink>
         
         <button className={'nav-button'}>
