@@ -34,16 +34,16 @@ const user = useContext(userContext)
 
   if(localStorage.getItem("login") == 'logged in'){
     return (
-
+      
       <header className={'navb'}>
 
         
-          <NavLink style={{textDecoration:'none', color:"black"}} to={"/"}>
+          <NavLink style={{textDecoration:'none', color:"white"}} to={"/"}>
             <img className={'nav-img'} src="./src/img/memobrain_logo.jpg" alt="memobrain-logo" />
           </NavLink>
         
         <button className={'nav-button'}>
-          <NavLink style={{textDecoration:'none', color:"black"}} to={"/learn"}>
+          <NavLink style={{textDecoration:'none', color:"white"}} to={"/learn"}>
             Learn
           </NavLink>
           </button>
@@ -74,27 +74,27 @@ const user = useContext(userContext)
 
 
         <button className={'nav-button-ranking'}>
-          <NavLink style={{textDecoration:'none', color:"black"}} to={"/ranking"}>
+          <NavLink style={{textDecoration:'none', color:"white"}} to={"/ranking"}>
             Ranking
           </NavLink>
         </button>
 
         <button className={'nav-button-right'}>
-          <NavLink style={{textDecoration:'none', color:"black"}} to={"/shop"}>
+          <NavLink style={{textDecoration:'none', color:"white"}} to={"/shop"}>
             Shop
           </NavLink>
         </button>
 
         
         <button className={'nav-button-right'}>
-          <NavLink onClick={logout} style={{textDecoration:'none', color:"black"}}>
+          <NavLink onClick={logout} style={{textDecoration:'none', color:"white"}}>
             Log out
           </NavLink>
         </button>
         
 
         <button className={'nav-button'}>
-          <NavLink style={{textDecoration:'none', color:"black"}} to={"/profile"}>
+          <NavLink style={{textDecoration:'none', color:"white"}} to={"/profile"}>
             Profile
           </NavLink>
         </button>
@@ -108,42 +108,6 @@ const user = useContext(userContext)
 
     
 
-  return (
-    <header className={'navb'}>
-
-        
-          <NavLink style={{textDecoration:'none', color:"white"}} to={"/"}>
-            <img className={'nav-img'} src="./src/img/memobrain_logo.jpg" alt="" />
-          </NavLink>
-        
-
-        <button className={'nav-button'}>
-          <NavLink style={{textDecoration:'none', color:"white"}} to={"/"}>
-            Home
-          </NavLink>
-        </button>
-        
-        <button className={'nav-button'}>
-          <NavLink style={{textDecoration:'none', color:"white"}} to={"/board-test"}>
-            Test Game
-          </NavLink>
-          </button>
-
-
-        
-{/* No es un error, si se usa la clase nav-button-right se daña la ubicacion del boton, NO CAMBIAR */}
-        <button className={'nav-button-ranking'}> 
-          <NavLink style={{textDecoration:'none', color:"white"}} to={"/login"}>
-            Log in
-          </NavLink>
-        </button>
-
-        
-
-
-
-    </header>
-  )
 }
 
 export default NavBar

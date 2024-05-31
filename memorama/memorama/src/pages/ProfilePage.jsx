@@ -49,7 +49,7 @@ function ProfilePage() {
             setUpScore(45000);
             break;
           case 6:
-            setUpScore(6000);
+            setUpScore(60000);
             break;
           case 7:
             setUpScore(100000);
@@ -101,7 +101,7 @@ function ProfilePage() {
 
 
   return (
-    <div>
+    <div className='principal-div'>
     <div className='profile-container'>
       <section>
     {user && userData ? (

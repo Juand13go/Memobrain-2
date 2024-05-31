@@ -28,7 +28,7 @@ const Login = () => {
 
       .then((res) => {
         let info = res.filter((r) => {
-          let char = "T7 ";
+          let char = "T2 ";
           if (r.user_name.search(char) !== -1) {
             return r;
           }
@@ -119,13 +119,26 @@ const Login = () => {
 
   return (
     <>
-    
+    <container className="flex">
+      <section className="memo">
+      <h1>
+        
+      </h1>
+      </section>
+
       {/**/}
       <form onSubmit={handleSubmit}>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
+      <div id="rays">
+
+      <path
+        fill="url(#paint0_linear_8_3)"
+        d="M149.5 152H133.42L9.53674e-07 4.70132e-06H149.5L299 4.70132e-06L165.58 152H149.5Z"
+      ></path>
+
+
+
+       
         <div className="container">
           {/*puedes agregar la clase general-error*/}
           <div className="login">
@@ -168,11 +181,13 @@ const Login = () => {
             </div>
           </div>
         </div>
+        </div>
       </form>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
+      </container>
     </>
   );
 };

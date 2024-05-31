@@ -3,18 +3,20 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className={localStorage.getItem('login') == "logged in" ? "footer" 
+      : "footer-login"
+    }>
       <div className="footer-div">
         <h2 className="footer-title">About</h2>
-        <NavLink className="footer-text" to="/memobrain" >What is Memobrain?</NavLink>
+        <NavLink className="footer-text" to="#" >What is Memobrain?</NavLink>
       </div>
       <div className="footer-div">
         <h2 className="footer-title">Help</h2>
-        <NavLink className="footer-text" to="/howtoplay" >How to play</NavLink>
+        <NavLink className="footer-text" to="#" >How to play</NavLink>
       </div>
       <div className="footer-div">
         <h2 className="footer-title">Team 7</h2>
-        <NavLink className="footer-text" to="/about" >Us</NavLink>
+        <NavLink className="footer-text" to="#" >Us</NavLink>
       </div>
       
     </footer>

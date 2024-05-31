@@ -136,8 +136,7 @@ const AppRoutes = () => {
         ]);
     } else {
         return useRoutes([
-            { path: "/", element: <GuestHomePage /> },
-            { path: "/home", element: <GuestHomePage /> },
+            { path: "/", element: <Login /> },
             { path: "/login", element: <Login /> },
             { path: "/board-test", element: <BoardGameTest /> },
             { path: "/about", element: <AboutPage /> },

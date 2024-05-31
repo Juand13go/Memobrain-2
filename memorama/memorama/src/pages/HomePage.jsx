@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { createUser, databases } from "../conf/appwrite";
 import conf from "../conf/conf";
 import './HomePage.css';
 
 function HomePage() {
+  let navigate = useNavigate()
+  const handleNavigate = () => {
+    navigate("/learn")
+  }
   const checkUser = async (id) => {
     try {
       const document = await databases.getDocument(conf.appwriteDatabaseId, conf.appwriteCollectionId, id);
@@ -34,7 +39,7 @@ function HomePage() {
       <img className="memobrain"></img>
         <section className="phrase">
         <h1>"Learning never exhausts the mind."</h1>
-      <button className='start_learning_btn'>Start Learning</button>
+        <button className='start_learning_btn' onClick={handleNavigate}>Start Learning</button>
       </section>
       
     </div>

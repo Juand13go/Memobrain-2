@@ -1,4 +1,4 @@
-footer {
+.footer {
     background: linear-gradient(to bottom, #000000, #011344); 
     color: #000000;
     padding: 20px 0;
@@ -11,7 +11,23 @@ footer {
     position: relative;
     /* Added: Set a higher z-index value to ensure it's on top */
     z-index: 2;
-    margin-top: 100px;
+    margin-top: 100px
+  }
+
+  .footer-login {
+    background: linear-gradient(to bottom, #000000, #011344); 
+    color: #000000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    /* Added: Set the element's position to be relative */
+    position: relative;
+    /* Added: Set a higher z-index value to ensure it's on top */
+    z-index: 2;
+  
   }
   
 
