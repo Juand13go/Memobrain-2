@@ -14,19 +14,19 @@ function CategoryPage() {
                 </div>
                 <div className='category-btn'>
                     <Link to="/math">
-                        <img className="image" src="./src/img/math.jpg" alt="" />
+                        <img className="image" src="memorama\memorama\public\img\spanish3.jpg" alt="" />
                     </Link>
                     <h1>MATH</h1>
                 </div>
                 <div className='category-btn'>
                     <Link to="/coding">
-                        <img className="image" src="./src/img/coding.jpg" alt="" />
+                        <img className="image" src="memorama\memorama\public\img\coding.jpg" alt="" />
                     </Link>
                     <h1>CODING</h1>
                 </div>
                 <div className='category-btn'>
                     <Link to="/science">
-                        <img className="image" src="./src/img/sciences.avif" alt="" />
+                        <img className="image" src="memorama\memorama\public\img\sciences.avif" alt="" />
                     </Link>
                     <h1>SCIENCE</h1>
                 </div>
