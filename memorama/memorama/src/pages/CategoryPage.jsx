@@ -26,11 +26,11 @@ function CategoryPage() {
                 </div>
                 <div className='category-btn'>
                     <Link to="/science">
-                        <img className="image" src="./img/sciences.avif" alt="" />
+                    <img className="image" src="./img/sciences.avif" alt="" />
                     </Link>
                     <h1>SCIENCE</h1>
                 </div>
-                <img className='background_categories'></img>
+                
             </div>
         </>
     );
